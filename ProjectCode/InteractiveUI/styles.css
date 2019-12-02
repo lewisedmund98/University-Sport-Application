@@ -1,0 +1,108 @@
+
+h1, a, th, td {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+.topnav .loginButton {
+  float: right;
+}
+
+.home img {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+}
+
+.table, th, td {
+  border: 1px solid black;
+}
+
+.sportnav {
+  width: 100%;
+  margin: auto;
+  padding: 10px;
+}
+
+.sportnav a {
+  display: block;
+  padding: 14px 16px;
+  border: 0;
+  text-align: center;
+  float: left;
+}
+
+.sportnav img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.login {
+  border: 3px solid black;
+  border-radius: 5px;
+  padding: 20px 0 30px 0;
+  text-align: center;
+  width: 40%;
+  margin: auto;
+}
+
+input {
+  width: 80%;
+  margin: auto;
+}
+
+button {
+  width: 30%;
+  margin: auto;
+}
+
+.background {
+  background: linear-gradient(to right, #009900 30%, #9900ff 100%);
+  height: max-content;
+}
+
+.column {
+  float: left;
+  width: 20%;
+  padding: 10px 10px;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+.card img {
+  width: 100%;
+}
+
