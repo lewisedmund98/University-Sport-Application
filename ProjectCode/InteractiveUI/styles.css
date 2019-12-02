@@ -1,4 +1,8 @@
 
+h1, a, th, td {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 .topnav {
   overflow: hidden;
   background-color: #e9e9e9;
@@ -12,6 +16,7 @@
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .topnav a:hover {
@@ -24,8 +29,14 @@
   color: white;
 }
 
-.topnav .login {
+.topnav .loginButton {
   float: right;
+}
+
+.home img {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
 }
 
 .table, th, td {
@@ -33,9 +44,7 @@
 }
 
 .sportnav {
-  width: 50%;
-  border: 2px solid green;
-  border-radius: 5px;
+  width: 100%;
   margin: auto;
   padding: 10px;
 }
@@ -45,6 +54,7 @@
   padding: 14px 16px;
   border: 0;
   text-align: center;
+  float: left;
 }
 
 .sportnav img {
@@ -54,4 +64,27 @@
   width: 40%;
 }
 
+.login {
+  border: 3px solid black;
+  border-radius: 5px;
+  padding: 20px 0 30px 0;
+  text-align: center;
+  width: 40%;
+  margin: auto;
+}
+
+input {
+  width: 80%;
+  margin: auto;
+}
+
+button {
+  width: 30%;
+  margin: auto;
+}
+
+.background {
+  background: linear-gradient(to right, #009900 30%, #9900ff 100%);
+  height: max-content;
+}
 

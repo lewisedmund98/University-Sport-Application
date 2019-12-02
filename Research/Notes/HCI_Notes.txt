@@ -1,2 +1,4 @@
 copyright free images from pexels.com, freeimages.com, unsplash.com.
 some data obtained from rhsu website regarding venues, fixture dates etc.
+credit for background <a href="https://www.freepik.com/free-photos-vectors/background">Background vector created by starline - www.freepik.com</a>
+credit for logo <a href="https://www.freepik.com/free-photos-vectors/sport">Sport vector created by macrovector - www.freepik.com</a>
