@@ -13,8 +13,8 @@ This is the GitHub Repository which holds all works towards my final project, A 
 * Research - Notes and acknowledgments
 ### Execution Instructions
 * InteractiveUI 
- * Save folder and open from Home.html, from here you can traverse through the UI.
+  * Save folder and open from Home.html, from here you can traverse through the UI.
 * MonochromeUI
- * Open project in Eclipse and download Lanterna jar file from https://jar-download.com/artifacts/com.googlecode.lanterna/lanterna/3.0.0/source-code
- * Run program and follow on screen instructions to navigate through UI
+  * Open project in Eclipse and download Lanterna jar file from https://jar-download.com/artifacts/com.googlecode.lanterna/lanterna/3.0.0/source-code
+  * Run program and follow on screen instructions to navigate through UI
 
