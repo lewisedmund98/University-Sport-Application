@@ -75,6 +75,7 @@ public class Main {
 							terminal.clearScreen();
 							textGraphics.putString(2, 1, "RHUL Hockey Page", SGR.BOLD);
 							textGraphics.putString(5, 4, "Press UP to return");
+							textGraphics.putString(5, 7, "Welcome the the home of Hockey at Royal Holloway!");
 							terminal.flush();
 							break;
 						case ArrowRight:
