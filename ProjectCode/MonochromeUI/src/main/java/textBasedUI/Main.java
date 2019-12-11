@@ -8,6 +8,16 @@ import com.googlecode.lanterna.input.KeyStroke;
 import com.googlecode.lanterna.terminal.DefaultTerminalFactory;
 import com.googlecode.lanterna.terminal.Terminal; 
 
+/**
+ * The Main class handles all of the text-based UI's capabilities. It makes 
+ * use of the Lanterna Java library to construct an empty terminal and define 
+ * text graphics to be used. Using the putString method it draws text onto the 
+ * terminal and then flushes the terminal output onto the screen. When certain 
+ * keys are pressed different text will be displayed.
+ * @author Lewis Edmund
+ *
+ */
+
 public class Main {
 	
 	public static void main(String[] args) {
@@ -111,14 +121,6 @@ public class Main {
 					}
 				}
 			}
-			
-			//while (ks.getKeyType() != KeyType.Escape) {
-				//textGraphics.drawLine(5, 4, terminal.getTerminalSize().getColumns() - 1, 4, ' ');
-				//textGraphics.putString(5, 4, "Last Keystroke: ", SGR.BOLD);
-				//textGraphics.putString(5 + "Last Keystroke: ".length(), 4, ks.toString());
-				//terminal.flush();
-				//ks = terminal.readInput();
-			//}
 			
 		} catch(IOException e) {
 			e.printStackTrace();
