@@ -3,7 +3,7 @@ This is the GitHub Repository which holds all works towards my final project, A 
 ## Directory Structure
 * .metadata - Supporting files for Eclipse Project
 * ProjectCode - All source code
-  * GUI - source code for Android Applications
+  * Andriod - source code for Android Applications
   * InteractiveUI - source code and images for website
   * MonochromeUI - source code, test cases and project settings for text-based UI
 * ProjectPlan - Plan
@@ -17,7 +17,7 @@ This is the GitHub Repository which holds all works towards my final project, A 
 * MonochromeUI
   * Open project in Eclipse and download Lanterna jar file from https://jar-download.com/artifacts/com.googlecode.lanterna/lanterna/3.0.0/source-code
   * Run program and follow on screen instructions to navigate through UI
-* GUI
+* Android
   * Download and unzip folders for interfaces A and B
   * Install the latest version of Android Studio
   * Open the project folders for interfaces A and B directly in Android Studio
